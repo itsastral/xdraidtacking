@@ -254,7 +254,7 @@ local sortclass = {
 local debug = nil
 
 function addon:print(s)
-	ChatFrame4:AddMessage("|cFFFFCC00vRA|r |cFFa8923c>|r "..s)
+	DEFAULT_CHAT_FRAME:AddMessage("|cFFFFCC00vRA|r |cFFa8923c>|r "..s)
 end
 
 function addon:debug(s)
