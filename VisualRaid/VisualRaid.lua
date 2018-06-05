@@ -251,7 +251,7 @@ local sortclass = {
 --	WRAPPERS
 -- ------------------------
 
-local debug = true
+local debug = nil
 
 function addon:print(s)
 	ChatFrame4:AddMessage("|cFFFFCC00vRA|r |cFFa8923c>|r "..s)
